@@ -1,4 +1,4 @@
 image: bradrydzewski/ruby:2.0.0
 script:
   - bundle instal
-  - bundle exec rails
+  - bundle exec rake spec
